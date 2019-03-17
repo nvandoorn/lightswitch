@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Lifted from here, not working
+# https://coderwall.com/p/s-2_nw/change-iterm2-color-profile-from-the-cli
 it2prof() {
   echo -e "\033]50;SetProfile=$1\a"; export ITERM_PROFILE=$1
 }
